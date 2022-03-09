@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
 
 body{
     font-family: "Montserrat";
@@ -9,10 +8,10 @@ body{
     color: #fff;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 14%;
 }
 h1{
-    font-family: 'Montserrat-black';
+    font-family: 'Montserrat-bold';
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -26,6 +25,59 @@ h1{
     font-family: Ubuntu-light;
 }
 .title-image{
-    width:60%;
+    width:250px;
     transform: rotate(25deg);
+    position: absolute;
+}
+
+#features{
+    padding: 10%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+.feature-font{
+    color: rgb(245, 81, 109);
+
+}
+.feature-font:hover{
+    color: rgb(240, 59, 59);
+}
+
+#testimonials{
+    background-color: rgb(245, 81, 109);
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #fff;
+  
+}
+.testimonial-text{
+    font-size: 3rem;
+    margin: 20px 50px 20px 50px;
+    padding: 7% 15%
+}
+
+h3{
+    font-family: "Montserrat";
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+}
+
+#press{
+    background-color: rgb(245, 81, 109);
+    padding: 2% 5%;
+    text-align: center;
+}
+.press-image{
+    width: 15%;
+    margin: 0px 30px 20px 30px;
+}
+
+#pricing{
+    padding: 100px;
+}
+.card{
+    padding:10px;
 }
