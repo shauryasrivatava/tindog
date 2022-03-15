@@ -25,9 +25,10 @@ h1{
     font-family: Ubuntu-light;
 }
 .title-image{
-    width:250px;
+    width:60%;
     transform: rotate(25deg);
     position: absolute;
+    right:15%
 }
 
 #features{
@@ -80,4 +81,27 @@ h3{
 }
 .card{
     padding:10px;
+}
+
+@media (max-width:992px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        padding: 30px;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: rgb(247, 101, 125);
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding: 40px;
+}
+#footer{
+    height: 200px;
+    text-align: center;
 }
