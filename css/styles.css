@@ -95,13 +95,25 @@ h3{
 }
 
 #cta{
-    background-color: rgb(247, 101, 125);
-    color: white;
-    height: 200px;
-    text-align: center;
-    padding: 40px;
+background-color: #ff4c68;
+color: #fff;
+text-align: center;
+padding: 7% 15%;
 }
+
+.cta-heading{
+font-family: "Montserrat";
+line-height: 1.5;
+font-size: 3rem;
+font-weight: 900;
+}
+
+/* FOOTER SECTION */
+
 #footer{
-    height: 200px;
-    text-align: center;
+padding: 7% 15%;
+text-align: center;
+}
+.social-log{
+    margin: 20px 10px;
 }
